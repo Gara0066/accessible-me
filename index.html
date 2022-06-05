@@ -14,9 +14,17 @@
 
 <body>
   <div class="container">
-    <div class="site-header">
+    <ul class="skip-links">
+      <li><a href="#nav">Skip to main nav</a></li>
+      <li><a href="#picture">Skip to main picture</a></li>
+      <li><a href="#welcome">Skip to welcome to Jam Box</a></li>
+      <li><a href="#owner">Skip to owner info</a></li>
+      <li><a href="#address">Skip to address</a></li>
+      <li><a href="#contact">Skip to contact section</a></li>
+    </ul>
+    <div class="site-header" >
       <h1>Jam Box Studios</h1>
-      <div class="main-nav">
+      <div class="main-nav" id="nav">
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Products</a></li>
@@ -24,13 +32,13 @@
           <li><a href="#">Studio</a></li>
         </ul>
       </div>
-      <img src="https://placekitten.com/1200/900" class="banner" alt="kitten picture with wool ball">
+      <img src="https://placekitten.com/1200/900"  id= "picture" class="banner" alt="kitten picture with wool ball">
     </div>
-    <div class="main-content">
+    <div class="main-content" id="welcome">
       <h2>Welcome to Jam Box</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
-      <div class="owner">
+      <div class="owner" id="owner">
         <h2>Meet the owner</h2>
         <ul>
           <li>Name: John Doe</li>
@@ -38,7 +46,7 @@
           <li>Email: johnjoe@jambox.ca</li>
           <li>Phone: 613-000-0000</li>
         </ul>
-        <h2>Address</h2>
+        <h2 id="address">Address</h2>
         <p>
           Jambox Studios
           123 Guitar Road,
@@ -46,7 +54,7 @@
           B3T 0L0
         </p>
       </div>
-      <div class="contact-section">
+      <div class="contact-section" id="contact">
         <h2>Contact Us</h2>
         <form action="thanks.html">
           <label>Full Name</label>
@@ -61,6 +69,7 @@
     </div>
     <div class="site-footer">
       &copy; 2021 Jam Box Studios
+      <a href="#top">Back to Top</a>
     </div>
   </div>
 </body>
