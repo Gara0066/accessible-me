@@ -97,7 +97,13 @@ form button {
   padding: 1rem;
   text-transform: uppercase;
 }
-
+form button:focus {
+  outline: 5px solid rgb(10, 5, 50);
+  background-color: rgb(249, 180, 78);
+}       
+form button:hover {
+  background-color: rgb(249, 180, 78);
+}       
 .site-footer {
   padding: 2rem 0;
   
