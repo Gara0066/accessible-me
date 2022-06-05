@@ -34,11 +34,11 @@
       </div>
       <img src="https://placekitten.com/1200/900"  id= "picture" class="banner" alt="kitten picture with wool ball">
     </div>
-    <div class="main-content" id="welcome">
+    <div role="contentinfo" class="main-content" id="welcome">
       <h2>Welcome to Jam Box</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
-      <div class="owner" id="owner">
+      <div role="region" class="owner" id="owner">
         <h2>Meet the owner</h2>
         <ul>
           <li>Name: John Doe</li>
@@ -47,20 +47,20 @@
           <li>Phone: 613-000-0000</li>
         </ul>
         <h2 id="address">Address</h2>
-        <p>
+        <p role="region">
           Jambox Studios
           123 Guitar Road,
           Musicville, Danceistan
           B3T 0L0
         </p>
       </div>
-      <div class="contact-section" id="contact">
+      <div role="region" class="contact-section" id="contact">
         <h2>Contact Us</h2>
-        <form action="thanks.html">
-          <label for= "Full Name">Name</label>
-          <input type="name" placeholder="Full name">
-          <label for= "youremail">Email</label>
-          <input type="text" placeholder="youremail@email.com">
+        <form role="form" action="thanks.html">
+          <label for="fname">Name</label>
+          <input type="text" id="fname" placeholder="Full name">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="youremail@email.com">
           <b>Your Message</b>
           <textarea></textarea>
           <button type="submit">Send</button>
